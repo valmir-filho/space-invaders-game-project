@@ -26,22 +26,24 @@
 
 ## Game Instructions:
 
-- Your goal is to control the bird and make it fly through gaps between the pipes without hitting them;
+- Your goal is to destroy the enemies (aliens) before they reach the bottom of the screen. Each time you successfully shoot an enemy, your score increases by 1;
 
-- Press the SPACE key to make the bird jump upwards. If you don't press it, the bird will fall due to gravity;
-
-- You earn points each time the bird successfully passes through a set of pipes without crashing;
-   
-- The bird must avoid hitting the pipes, both the top and bottom sections. If the bird hits a pipe, the game restarts;
-
-- If the bird flies too high or falls off the screen, the game will restart;
-
-- If you collide with a pipe or go off-screen, the game will automatically restart, and you can try again;
-
-- Gravity continuously pulls the bird down, so you need to time your jumps using the SPACE key carefully;
-
-- The pipes move from right to left, and gaps between them stay the same, but their positions vary randomly;
+- Press the Left Arrow key on your keyboard to move your spaceship to the left;
   
-- Enjoy the game and see how many points you can score.
+- Press the Right Arrow key on your keyboard to move your spaceship to the right;
+   
+- Press the Up Arrow key on your keyboard to fire a bullet at the enemies;
+
+- The enemies move across the screen and gradually descend towards the player's spaceship;
+  
+- You need to shoot the enemies before they reach your spaceship. If an enemy touches your spaceship or crosses the bottom of the screen, the game ends;
+
+- You earn 1 point for each enemy you successfully shoot down. Your score is displayed in the top-left corner of the screen;
+
+- The game ends when: an enemy collides with your spaceship and an enemy reaches the bottom of the screen. When the game is over, a GAME OVER message will be displayed in the center of the screen;
+
+- Try to anticipate the movement of the enemies and position yourself accordingly to make it easier to hit them;
+  
+- Use quick movements to dodge incoming enemies and aim accurately.
 
 ### Used IDE: Visual Studio Code.
